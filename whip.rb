@@ -1,15 +1,15 @@
 require_relative "topping"
 
-class Mocha < Toppig
+class Whip < Toppig
   def initialize(beverage)
     @beverage = beverage
   end
 
   def description
-    "#{@beverage.description}・モカ"
+    "#{@beverage.description}・ホイップ"
   end
 
   def cost
-    20 + @beverage.cost
+    10 + @beverage.cost
   end
 end

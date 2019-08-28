@@ -1,14 +1,10 @@
 require "active_support/all"
 
 class Beverage
-  attr_accessor :description
+  attr_reader :description
 
   def initialize
     @description = "不明な飲み物"
-  end
-
-  def get_description
-    @description
   end
 
   # インターフェイス

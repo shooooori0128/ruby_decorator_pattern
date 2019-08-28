@@ -2,6 +2,6 @@ require_relative "beverage"
 
 class Toppig < Beverage
   def initialize
-    super
+    @description = "不明なトッピング"
   end
 end
