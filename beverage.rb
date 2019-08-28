@@ -12,7 +12,7 @@ class Beverage
   end
 
   # インターフェイス
-  def cost()
+  def cost
     raise NotImplementedError, "#{self.class}##{__method__} が実装されていません"
   end
 end
